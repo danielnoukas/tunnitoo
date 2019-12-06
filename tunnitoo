@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="http://">Home</a>
+            <a href="http://">About us</a>
+            <a href="http://">Contact us</a>
+        </nav>
+        <div class="hero container">
+            <p class="hero-text">Lorem ipsum dolor sit amet si si bueno ocen harazo jajajajaja !</p>
+            <button>Click Here</button>
+        </div>
+    </header>
+</body>
+</html>
+
+
+
+
+
+@import url('<link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">');
+@import url('<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">')
+:root {
+    box-sizing: border-box;
+    font-family: 'Solway', serif;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(https://source.unsplash.com/o5kbsJVkMJ8/1920x428)
+}
+
+nav {
+    max-width: 1440px;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: snow;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 970px;
+    margin: auto;
+}
+
+.hero {
+    padding: 5rem;
+}
+
+.hero-text {
+    max-width: 300px;
+    font-size: 24px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 2rem 0;
+    color: snow;
+    background-color: ;
+}
+
+.hero button {
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: snow;
+    font-weight: bold;
+
+}
